@@ -29,14 +29,14 @@
 
 # print all the subsets where sum is equal to key value:
 
-l=list(map(int,input().split()))
-key=int(input())
-for i in range(0,len(l)):
-
-    for j in range(i,len(l)):
-        sum=0
-        for k in range(i,j+1):
-            sum+=l[k]
-        # print(sum)
-        if sum==key:
-            print(sum)
+# l=list(map(int,input().split()))
+# key=int(input())
+# for i in range(0,len(l)):
+#
+#     for j in range(i,len(l)):
+#         sum=0
+#         for k in range(i,j+1):
+#             sum+=l[k]
+#         # print(sum)
+#         if sum==key:
+#             print(sum)

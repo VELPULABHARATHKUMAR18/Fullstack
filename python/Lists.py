@@ -292,39 +292,56 @@
 #         return True
 #     else:
 #         return False
-def arm(n):
-    t=n
-    s=0
-    dc=0
-    while t>0:
-        r=t%10
-        dc+=1
-        t//=10
-    t=n
-    while t>0:
-        r=n%10
-        s=s+(r**dc)
-        t//=10
-    if s==n:
-        return True
-    else:
-        return False
-l=[7,9,11,12,45]
-for i in range(0,len(l)):
-
-    for j in range(i,len(l)):
-        sum=0
-        for k in range(i,j+1):
-            # print(l[k],end=" ")
-            sum+=l[k]
-        if arm(sum):
-            print(sum)
+# def arm(n):
+#     t=n
+#     s=0
+#     dc=0
+#     while t>0:
+#         r=t%10
+#         dc+=1
+#         t//=10
+#     t=n
+#     while t>0:
+#         r=n%10
+#         s=s+(r**dc)
+#         t//=10
+#     if s==n:
+#         return True
+#     else:
+#         return False
+# l=[7,9,11,12,45]
+# for i in range(0,len(l)):
+#
+#     for j in range(i,len(l)):
+#         sum=0
+#         for k in range(i,j+1):
+#             # print(l[k],end=" ")
+#             sum+=l[k]
+#         if arm(sum):
+#             print(sum)
 
 
 # l=list(map(int,input().split()))
-# k=int(input())
-# k=k%len(l)
-# print(l[k:]+l[:k])
-# print(l[-k:]+l[:-k])
+# key=int(input())
+# c=0
+# for i in range(0,len(l)):
+#     for j in range(i,len(l)):
+#         k=l[i:j+1]
+#         if len(k)==key:
+#             c+=1
+#             print(k)
+# if c==0:
+#     print("Not found")
+
+l=list(map(int,input().split()))
+key=int(input())
+c=0
+for i in range(len(l)):
+    for j in range(i,len(l)):
+        if len(l[i:j+1])==key:
+            print(l[i:j+1])
+            c+=1
+if c==0:
+    print("no exists")
 
 
