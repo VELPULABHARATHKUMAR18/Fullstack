@@ -54,6 +54,23 @@ d={}
 # print(b)
 
 
+# n=input()
+#
+# z=n[::-1]
+# z=z.split()
+# print(" ".join(z))
+
+n=list(map(int,input().split()))
+key=input()
+for i in range(0,len(n)):
+    for j in range(i,len(n)):
+        sum=0
+        for k in range(i,j+1):
+            # print(n[k],end="")
+            z=sum+=n[k]
+if z==key:
+    print(l[k])
+
 
 
 

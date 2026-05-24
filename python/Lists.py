@@ -333,15 +333,27 @@
 # if c==0:
 #     print("Not found")
 
-l=list(map(int,input().split()))
-key=int(input())
-c=0
-for i in range(len(l)):
-    for j in range(i,len(l)):
-        if len(l[i:j+1])==key:
-            print(l[i:j+1])
-            c+=1
-if c==0:
-    print("no exists")
+# l=list(map(int,input().split()))
+# key=int(input())
+# c=0
+# for i in range(len(l)):
+#     for j in range(i,len(l)):
+#         if len(l[i:j+1])==key:
+#             print(l[i:j+1])
+#             c+=1
+# if c==0:
+#     print("no exists")
+
+
+# unique element in the list
+
+# l=list(map(int,input().split()))
+# for i in range(len(l)):
+#     c=0
+#     for j in range(len(l)):
+#         if l[i]==l[j]:
+#             c+=1
+#     if c==1:
+#         print(l[i],end=" ")
 
 
