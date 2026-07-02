@@ -58,27 +58,29 @@ d={1:"one",2:"two",3:"three",4:"four",0:"zero",6:"six"}
 #         print(d[s[i]],end="")
 
 
-s="qaz"
-s=s.lower()
-a="qwertyuiop"
-b="asdfghjkl"
-c="zxcvbnm"
-c1=0
-c2=0
-c3=0
-for i in range(len(s)):
-    if s[i] in a:
-        c1+=1
-    elif s[i] in b:
-        c2+=1
-    elif s[i] in c:
-        c3+=1
-if c1==len(s):
-    print("True")
-elif c2==len(s):
-    print("True")
-elif c3==len(s):
-    print("True")
-else:
-    print("False")
+# s="qaz"
+# s=s.lower()
+# a="qwertyuiop"
+# b="asdfghjkl"
+# c="zxcvbnm"
+# c1=0
+# c2=0
+# c3=0
+# for i in range(len(s)):
+#     if s[i] in a:
+#         c1+=1
+#     elif s[i] in b:
+#         c2+=1
+#     elif s[i] in c:
+#         c3+=1
+# if c1==len(s):
+#     print("True")
+# elif c2==len(s):
+#     print("True")
+# elif c3==len(s):
+#     print("True")
+# else:
+#     print("False")
+
+
 

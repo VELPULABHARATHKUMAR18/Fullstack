@@ -2,24 +2,24 @@
 
 # n=int(input())
 # t=n
-# min=0
+# max=0
 # while t>0:
 #     r=t%10
-#     if r>min:
-#         min=r
+#     if r>max:
+#         max=r
 #
 #     t=t//10
 # print(min)
 #
 # # n=int(input())
 # t=n
-# max=9
+# min=9
 # while t>0:
 #     r=t%10
-#     if r<max:
-#         max=r
+#     if r<min:
+#         min=r
 #     t=t//10
-# print(max)
+# print(min)
 
 # sum of even digits
 
