@@ -46,16 +46,16 @@
 
 
 # count of even no's using recurssion'
-def even(s:int,e:int,c:int):
-    if s>e:
-        return c
-    if s%2==0:
-        return even(s+1,e,c+1)
-    else:
-        return even(s+1,e,c)
-s=int(input())
-e=int(input())
-print(even(s,e,0))
+# def even(s:int,e:int,c:int):
+#     if s>e:
+#         return c
+#     if s%2==0:
+#         return even(s+1,e,c+1)
+#     else:
+#         return even(s+1,e,c)
+# # s=int(input())
+# e=int(input())
+# print(even(s,e,0))
 
 # even no in the range using recurssion
 # def even(s:int,e:int):
@@ -98,12 +98,48 @@ print(even(s,e,0))
 
 
 
+# printsum of n natural no's without using extra variable:'
+
+# def sumofnat(n:int):
+#     if n==0:
+#         return 0
+#     return n+sumofnat(n-1)
+# n=int(input())
+# print(sumofnat(n))
 
 
+# back tracking:
+# def sumdigit(n:int):
+#     if n==0:
+#         return 0
+#     return n%10+sumdigit(n//10)
+# n=int(input())
+# print(sumdigit(n))
 
 
+# def even(s,e):
+#     if s>e:
+#         return 0
+#     if s%2==0:
+#         return 1+even(s+1,e)
+#     else:
+#         return even(s+1,e)
+# s=int(input())
+# e=int(input())
+# d=even(s,e)
+# print(d)
 
 
+# print nth fibonaccii no:
+
+# def fibo(n:int):
+#     if n==0:
+#         return 0
+#     if n==1:
+#         return 1
+#     return fibo(n-1)+fibo(n-2)
+# n=int(input())
+# print(fibo(n))
 
 
 

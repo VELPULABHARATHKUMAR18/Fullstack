@@ -356,4 +356,28 @@
 #     if c==1:
 #         print(l[i],end=" ")
 
+# binary search
+# l=list(map(int,input().split()))
+# target=int(input())
+# low=0
+# high=len(l)-1
+# while low<=high:
+#     mid=(low+high)//2
+#     if l[mid]==target:
+#         print(l[mid])
+#         break
+#     elif l[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+
+# string shuffle
+# s=input()
+# l=list(map(int,input().split()))
+# r=''
+# for i in range(len(s)):
+#     for j in range(len(l)):
+#         if l[j]==i:
+#             r+=s[j]
+# print(r)
 
